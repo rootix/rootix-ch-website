@@ -1,0 +1,50 @@
+html {
+    background: #0E1A25;
+    font-size: 0.625em;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.icon-list {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.icon-list ul {
+    display: block;
+    font-size: 0;
+    list-style: none;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 4.8rem;
+    text-align: center;
+}
+
+.icon-list li {
+    display: inline-block;
+    margin: 1.2rem;
+}
+
+.icon-list a {
+    display: block;
+    position: relative;
+    height: 9.6rem;
+    width: 9.6rem;
+}
+
+.icon-list svg {
+    height: 100%;
+    fill: #dddddd;
+}
+
+.icon-list svg:hover {
+    border-radius: 100%;
+    color: #0E1A25;
+    fill: #0E1A25;
+    background: #dddddd;
+    transition: background-color .5s, transform .5s ease-out
+}

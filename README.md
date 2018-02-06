@@ -1,1 +1,1 @@
-The code which powers the domain http://www.rootix.ch
+The code which powers the domain https://www.rootix.ch
